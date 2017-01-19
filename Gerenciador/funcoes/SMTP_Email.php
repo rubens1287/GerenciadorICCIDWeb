@@ -8,17 +8,11 @@ Class EmailSmtp{
 		require_once('../PHPMailer/PHPMailerAutoload.php');	
 		
 		$MAIL = new PHPMailer();
-				
-		//$host 		= 'smtp.mail.yahoo.com';
-		//$username 	= 'gerenciador.techmahindra67@yahoo.com';
-		//$password 	= 'Tech@2016';
-		//$port 		= 465;
-		//$secure 	    = 'ssl';
-		
-		$host 			= 'smtp.techmahindra.com.br';
-		$username 		= 'automocao@techmahindra.com.br';
-		$password 		= 'msat123$';
-		$port 			= 587;
+						
+		$host 			= '*';
+		$username 		= '*';
+		$password 		= '*';
+		$port 			= *;
 		$secure 		= false;
 		
 		$from 			= $username;
